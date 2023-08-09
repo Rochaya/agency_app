@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import studyData from '../data/data.json'
 
-
 export default function StudyCase() {
 
     const { studyUrl } = useParams();

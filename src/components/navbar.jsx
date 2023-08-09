@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import Cross from '/src/assets/cross.png'
 import Hamburger from '/src/assets/hamburger.png'
 
-export default function Navbar() {
+export default function Navbar({ toggleMode, nightMode }) {
     const [showNav, setShowNav] = useState(false)
     const location = useLocation();
 
